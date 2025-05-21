@@ -4533,6 +4533,12 @@
 		(uuid "726c2a06-da0b-4c99-91ad-767e751f2cca")
 	)
 	(junction
+		(at 74.295 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812f1074-cee8-49de-b438-885bfe4430a9")
+	)
+	(junction
 		(at 40.64 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4848,6 +4854,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.155 146.685) (xy 74.295 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad5080a-ccff-4753-a79d-2fa01d298915")
+	)
+	(wire
+		(pts
 			(xy 92.71 113.03) (xy 92.71 28.575)
 		)
 		(stroke
@@ -4995,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "27f9e93e-b8d9-4bc1-b72c-0b115d8b4265")
+	)
+	(wire
+		(pts
+			(xy 83.185 120.65) (xy 99.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290502a8-c49c-4eb6-9e2b-3b7c7eedb7bd")
 	)
 	(wire
 		(pts
@@ -5295,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "47c06c68-23bf-4dfd-8fb1-c74d0a6f99a7")
+	)
+	(wire
+		(pts
+			(xy 81.28 49.53) (xy 81.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d6c60e-06eb-489b-9a7b-aab1bc70e0cd")
 	)
 	(wire
 		(pts
@@ -5708,6 +5744,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.295 146.685) (xy 74.295 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782588aa-f393-4404-926e-698894abe17c")
+	)
+	(wire
+		(pts
 			(xy 220.345 140.97) (xy 233.045 140.97)
 		)
 		(stroke
@@ -5858,6 +5904,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.975 46.355) (xy 83.185 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84056d78-20f5-4bde-965b-e5f880d1d238")
+	)
+	(wire
+		(pts
 			(xy 177.8 146.05) (xy 177.8 128.27)
 		)
 		(stroke
@@ -5925,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "8f8e2e80-8ca2-4f9a-9c25-a35b9ca2d912")
+	)
+	(wire
+		(pts
+			(xy 81.28 128.27) (xy 99.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb4ad27-a5c2-4f89-bd3a-e52d2446da58")
 	)
 	(wire
 		(pts
@@ -6185,6 +6251,16 @@
 			(type default)
 		)
 		(uuid "b2b7424c-af6f-4a2b-82a2-cd5e805085c1")
+	)
+	(wire
+		(pts
+			(xy 53.975 49.53) (xy 81.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c13cbd-6410-4d41-8c7a-e8a40a4f6b84")
 	)
 	(wire
 		(pts
@@ -6568,6 +6644,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.185 46.355) (xy 83.185 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed091584-8c69-4e33-ab10-444f6ce44f16")
+	)
+	(wire
+		(pts
 			(xy 180.975 89.535) (xy 194.945 89.535)
 		)
 		(stroke
@@ -6914,6 +7000,28 @@
 			)
 		)
 	)
+	(global_label "Z80_Clock"
+		(shape input)
+		(at 53.975 46.355 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50220c24-d6a8-4605-aa13-0640f93dc5e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.1928 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{NMI}"
 		(shape input)
 		(at 40.64 28.575 180)
@@ -6932,6 +7040,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{BUSACK}"
+		(shape input)
+		(at 97.155 146.685 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50ea1130-7d9b-4683-ada8-ef3b697eb90d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.5788 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7178,28 +7308,6 @@
 			)
 		)
 	)
-	(global_label "~{RESET}"
-		(shape input)
-		(at 233.68 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa0f70f1-1df8-4783-929a-4370f64f5b36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.4103 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "A2"
 		(shape input)
 		(at 233.045 140.97 0)
@@ -7372,6 +7480,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{RESET}"
+		(shape input)
+		(at 53.975 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e583648e-95a6-41c4-bd91-9c82a31dbf73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.2447 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9720,6 +9850,48 @@
 				(path "/a206b757-c4ba-4c88-b029-4cf0643816b3/9f27243c-e3ff-46f7-9a7c-c428f4adfc65"
 					(reference "3F")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 45.085)
+		(size 12.7 9.525)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "18e9bdaa-fc78-472d-bf67-9066e25e307b")
+		(property "Sheetname" "Clock-Reset"
+			(at 25.4 44.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Z80_Clock_Reset.kicad_sch"
+			(at 25.4 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sorcerer"
+				(path "/a206b757-c4ba-4c88-b029-4cf0643816b3/9f27243c-e3ff-46f7-9a7c-c428f4adfc65"
+					(page "3")
 				)
 			)
 		)

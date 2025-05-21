@@ -415,6 +415,10 @@
     [
       "9f27243c-e3ff-46f7-9a7c-c428f4adfc65",
       "CPU"
+    ],
+    [
+      "18e9bdaa-fc78-472d-bf67-9066e25e307b",
+      "Clock-Reset"
     ]
   ],
   "text_variables": {}
