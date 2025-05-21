@@ -1,4 +1,5 @@
  - [ ] Double check CPU, clock generator sheets
+ - [ ] Reorder the 241s when you have time
  - [ ] Dynamic RAM section
  - [ ] ROM section
  - [ ] I/O and UART
