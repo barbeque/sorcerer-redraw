@@ -1,0 +1,11 @@
+ - [ ] Double check CPU, clock generator sheets
+ - [ ] Dynamic RAM section
+ - [ ] ROM section
+ - [ ] I/O and UART
+ - [ ] Interfaces
+ - [ ] Cassette interface
+ - [ ] Power supply
+ - [ ] (low priority) Expansion chassis motherboard
+ - [ ] Master timing for Exidy standard video
+ - [ ] Sorcerer video interface
+ - [ ] (low priority) ROM pack
