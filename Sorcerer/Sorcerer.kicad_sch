@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a206b757-c4ba-4c88-b029-4cf0643816b3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 65.405 44.45)
+		(size 21.59 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9f27243c-e3ff-46f7-9a7c-c428f4adfc65")
+		(property "Sheetname" "CPU"
+			(at 65.405 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Z80_CPU.kicad_sch"
+			(at 65.405 57.0996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sorcerer"
+				(path "/a206b757-c4ba-4c88-b029-4cf0643816b3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

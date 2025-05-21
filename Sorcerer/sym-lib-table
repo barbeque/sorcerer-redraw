@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Exidy")(type "KiCad")(uri "${KIPRJMOD}/Exidy.kicad_sym")(options "")(descr ""))
+)
